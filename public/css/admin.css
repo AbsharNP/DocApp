@@ -1,0 +1,131 @@
+/* Admin sidebar styling */
+
+.container {
+    display: flex;
+    height: 100%;
+  }
+  
+  .menu {
+    width: 250px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px 0;
+  }
+  
+  .menu-container {
+    width: 100%;
+  }
+  
+  .profile-container {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .profile-title {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 5px 0;
+  }
+  
+  .profile-subtitle {
+    font-size: 14px;
+    color: #999;
+  }
+  
+  .logout-btn {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #2196f3;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  .menu-row {
+    padding: 10px 0;
+  }
+  
+  .menu-btn {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .menu-btn:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .menu-text {
+    margin-left: 10px;
+    font-size: 16px;
+  }
+  
+  .menu-active {
+    background-color: #e6f7ff;
+  }
+  
+  .menu-icon-dashbord,
+  .menu-icon-doctor,
+  .menu-icon-schedule,
+  .menu-icon-appointment,
+  .menu-icon-patient {
+    display: flex;
+    align-items: center;
+  }
+  
+  .menu-icon-dashbord-active i,
+  .menu-icon-doctor i,
+  .menu-icon-schedule i,
+  .menu-icon-appointment i,
+  .menu-icon-patient i {
+    font-size: 20px;
+  }
+  
+  .menu-icon-dashbord-active {
+    color: #007bff;
+  }
+  
+  .non-style-link-menu {
+    display: flex;
+    text-decoration: none;
+    color: inherit;
+    align-items: center;
+  }
+  
+  .non-style-link-menu-active {
+    color: #007bff;
+  }
+  
+  .menu-icon-dashbord i:before {
+    content: "\f1fe"; /* FontAwesome dashboard icon */
+  }
+  
+  .menu-icon-doctor i:before {
+    content: "\f0f0"; /* FontAwesome doctor icon */
+  }
+  
+  .menu-icon-schedule i:before {
+    content: "\f073"; /* FontAwesome calendar icon */
+  }
+  
+  .menu-icon-appointment i:before {
+    content: "\f274"; /* FontAwesome bookmark icon */
+  }
+  
+  .menu-icon-patient i:before {
+    content: "\f193"; /* FontAwesome wheelchair icon */
+  }
+  .menu-spacer {
+    height: 4px; /* Adjust the height as needed */
+    background-color:#e7f7ff; /* Set the desired color for the spacer */
+  }
+  
+  /* Optional: Additional styling to improve the look */
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
